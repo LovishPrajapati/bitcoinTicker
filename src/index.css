@@ -1,13 +1,54 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: rgb(250, 236, 236);
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.ticker {
+  background-color: rgb(22, 18, 18);
+  color: rgb(250, 236, 236);
+  /* width: fit-content; */
+  width: 450px;
+  padding: 1rem;
+  margin: 1rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.ticker-body {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ticker-currency-icon {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.ticker-left {
+  margin-left: 10px;
+}
+
+h2,
+h3,
+h4 {
+  margin: 0px;
+  padding: 5px;
+}
+
+.drop {
+  color: red;
+}
+
+.rise {
+  color: green;
 }
