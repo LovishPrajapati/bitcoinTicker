@@ -52,3 +52,12 @@ h4 {
 .rise {
   color: green;
 }
+
+.button-box {
+  margin-top: 20px;
+}
+
+.button-box button {
+  margin: 5px;
+  cursor: pointer;
+}
